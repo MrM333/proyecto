@@ -1,17 +1,62 @@
-.producto img{
-width: 100px;
-border:1px solid rgb(182, 136, 136);
-padding: 8px; margin: 10px 10px 15px;
-cursor:pointer;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
-.product{
-    width: 8%; display: flex;
+body{
+    width: 100%;
+    max-width: 1450px;
+    height: 100vh;
+    padding: 40px;
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.imagen img{
-    height: 460px;
+.container{
+width: 50%;
+position: relative;
 }
-.imagen{
-    padding: 10px; width: 45%;  
+.mySlide{
+    display: none;
+}
+.mySlide img{
+    width: 100%;
+}
+.prev,
+.next{
+    cursor:pointer;
+    position:absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border: solid white 2px;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.elements{
+    text-align: center;
+}
+.quadrate{
+    cursor:pointer;
+    height: 4px;
+    width: 50px;
 }
 
     
