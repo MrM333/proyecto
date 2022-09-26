@@ -1,0 +1,17 @@
+*{
+    margin: 2px;
+    padding: 20px; 
+    
+}
+    .detalle{
+    border: 3px; border: solid rgba(243, 212, 36, 0.836); 
+    object-fit:scale-down;
+    margin:auto; 
+    border: 5px solid whitesmoke;
+    width: 250px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgba(255, 228, 196, 0.384);
+    box-sizing:calc();
+    
+}

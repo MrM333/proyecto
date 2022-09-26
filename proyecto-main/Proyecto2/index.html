@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Destalles producto</title>
+</head>
+<body>
+    <main class="main">
+        <div class="central">
+            <img id="imgCentral" src="./images/piso1.jpg" alt="Piso cafe oscuro">
+        </div>
+    <div class="container">
+        <div class="mySlides fade" onclick="prueba()">
+        <img src="./images/Home6.png" alt="Piso cafe oscuro">
+        </div> 
+        <div class="mySlides fade" onclick="prueba1()">
+        <img src="./images/Home11.png" alt="Piso color cafe oscuro">
+        </div> 
+        <div class="mySlides fade" onclick="prueba2()">
+        <img src="./images/Home7.png" alt="Piso color cafe oscuro">
+     </div> 
+        <a class="prev" onclick="slides(-1)">&#8594;</a>
+        <a class="next" onclick="slides(1)">&#8592;</a>
+     <div class="elements">
+        <span class="quadrate" onclick="currentSlide(1)"></span>
+        <span class="quadrate" onclick="currentSlide(2)"></span>
+        <span class="quadrate" onclick="currentSlide(3)"></span>
+
+     </div>
+        </main>    
+        <script src="./scripts/main.js"></script>
+    </div>
+</body>
+</html>
